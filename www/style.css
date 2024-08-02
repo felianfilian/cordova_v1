@@ -1,0 +1,16 @@
+.main-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  background-color: rgb(234, 248, 255);
+}
+
+.input-01 {
+  width: 100%;
+}
+
+.button-01 {
+  width: 100%;
+}
