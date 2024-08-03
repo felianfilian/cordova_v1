@@ -17,14 +17,18 @@
       <h1>Work Tracker</h1>
       <input class="input-01" type="time" placeholder="start time" />
       <input class="input-01" type="time" placeholder="ending time" />
-      <button class="btn btn-primary button-01">Save</button>
+      <button class="btn btn-primary button-01" onclick="AddWorkTime()">
+        Save
+      </button>
       <h4>Recorded Times</h4>
-      <div class="timetable">
+      <div id="timetable" class="timetable">
         <div class="timestamp">01-08-2024 8:00 - 17:30</div>
         <div class="timestamp">01-08-2024 8:00 - 17:30</div>
         <div class="timestamp">01-08-2024 8:00 - 17:30</div>
       </div>
     </div>
+
+    <script src="script.js"></script>
 
     <!-- Bootstrap -->
     <script
